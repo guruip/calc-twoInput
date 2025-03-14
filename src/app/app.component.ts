@@ -10,7 +10,7 @@ import { MyCalculatorComponent } from './components/my-calculator/my-calculator.
   imports: [
     ReactiveFormsModule,
     FormsModule,
-    MyCalculatorComponent
+    MyCalculatorComponent,
   ]
 })
 export class AppComponent {}

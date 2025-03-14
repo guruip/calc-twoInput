@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { MyCalculatorComponent } from './my-calculator/my-calculator.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MyCalculatorComponent } from './components/my-calculator/my-calculator.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   imports: [
     ReactiveFormsModule,
     FormsModule,
-    MyCalculatorComponent,
+    MyCalculatorComponent
   ]
 })
 export class AppComponent {}
